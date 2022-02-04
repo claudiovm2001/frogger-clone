@@ -1,3 +1,5 @@
+//CÓDIGO AUTORAL ABAIXO:
+
 package fbuni;
 
 //import javax.swing.JLabel;
@@ -31,6 +33,7 @@ public class ContadorTempo implements Runnable{
 		
 		while (true) {
 			
+			//Passar o tempo e reduzir o tempo restante
 			while (i>0) {
 			s = ("TEMPO: "+i);
 			//System.out.println("TEMPO: "+cont);
