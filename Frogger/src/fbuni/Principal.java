@@ -64,6 +64,7 @@ public class Principal extends JFrame implements KeyListener {
 		
 		int i = 0;
 		
+		//AUTORAL: carrega recorde do arquivo:
 		try {
 			//arquivo.gravarArquivo(0);
 			i = arquivo.lerArquivo();
@@ -172,6 +173,7 @@ public class Principal extends JFrame implements KeyListener {
 	public void keyReleased(KeyEvent arg0) {}
 	public void keyTyped(KeyEvent arg0) {}
 	
+	//AUTORAL: reinicia o jogo se o temporizador acabar:
 	public void timerZerado() {
 		nave.setX(400);
 		nave.setY(525);
@@ -180,6 +182,7 @@ public class Principal extends JFrame implements KeyListener {
 		//contadorPontos.pontos = 0;
 	}
 	
+	//AUTORAL: realiza procedimento durante uma vitória do jogador:
 	public void sucesso() {
 		if (nave.getY() < 50) {
 			
@@ -232,7 +235,7 @@ public class Principal extends JFrame implements KeyListener {
 	}
 	*/
 	
-	
+	//AUTORAL: na ocorrência de uma colisão (sapo e carros)...
 	public void colisao() {
 		System.out.println();
 		
@@ -248,6 +251,8 @@ public class Principal extends JFrame implements KeyListener {
 				
 				contadorTempo.setI(60);
 				contadorPontos.setPontos(0);
+			
+				//... o tempo, posição e pontos são reiniciados
 				
 		}
 	}
