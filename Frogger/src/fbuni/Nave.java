@@ -1,6 +1,7 @@
+//CÓDIGO AUTORAL ABAIXO:
+
 package fbuni;
 
-//ESTA CLASSE FOI CRIADA AQUI APENAS COMO EXEMPLO. O ALUNO DEVE SUBSTITUI-LA POR OUTRA CLASSE CONFORME O PROJETO.
 public class Nave extends DesenhoMovel implements Runnable {
 
 	private Thread t = new Thread (this);
@@ -14,6 +15,7 @@ public class Nave extends DesenhoMovel implements Runnable {
 		t.start();
 	}
 	
+	//MOVIMENTAR SAPO (e aplicar limites de borda de tela):
 	public void moverDireita() throws PosicaoException {
 		this.setX(this.getX() + 10);
 		
@@ -43,6 +45,7 @@ public class Nave extends DesenhoMovel implements Runnable {
 		}
 	}
 	
+	//Este código esta sempre em execução e verifica ocorrência de 'colisão' ou 'sucesso'
 	public void run() {
 		while (true) {
 			Principal.t.colisao();	
