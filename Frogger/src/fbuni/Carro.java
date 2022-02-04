@@ -1,3 +1,5 @@
+//CÓDIGO AUTORAL ABAIXO:
+
 package fbuni;
 
 //ESTA CLASSE FOI CRIADA AQUI APENAS COMO EXEMPLO. O ALUNO DEVE SUBSTITUI-LA POR OUTRA CLASSE CONFORME O PROJETO.
@@ -18,7 +20,7 @@ public class Carro extends DesenhoAnimado {
 	public Carro(int x, int y, String path, int modelo) {
 		super(x, y, path);
 		
-		
+		//diferentes atributos para diferentes tipos de carro:
 		switch (modelo) {
 			case 0:
 				this.setImg("carro_vermelho.png");
@@ -46,6 +48,7 @@ public class Carro extends DesenhoAnimado {
 	public void run() {
 		while(true) {
 			
+			//Carros devem se mover na direção que seu parachoque aponta:
 			if (direcao == 1) {
 				if (this.getX()>800) {
 					this.setX(-102);
