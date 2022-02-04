@@ -1,3 +1,5 @@
+//CÓDIGO AUTORAL ABAIXO:
+
 package fbuni;
 
 import java.awt.Color;
@@ -20,6 +22,7 @@ public class ContadorPontos implements Runnable {
 
 	@Override
 	public void run() {
+		//Informar e manter atualizados pontos e recorde:
 		while (true) {
 			sPontos = ("PONTOS: "+pontos);
 			sRecorde = ("RECORDE :"+recorde);			
