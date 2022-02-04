@@ -1,3 +1,5 @@
+//CÓDIGO AUTORIAL ABAIXO.
+
 package fbuni;
 
 import java.io.*;
