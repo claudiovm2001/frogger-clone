@@ -6,4 +6,4 @@ Made as a college appointment for Programming Techniques class, contains code pr
 ||
 
 Um jogos simples inspirado em Frogger(1981)
-Feito originalmente como um trabalho de faculdade (cadeira de Técnicas de Programação), aproveita código fornecido pelo educador (código feito por mim está sinalizado)
+Feito originalmente como um trabalho de faculdade (cadeira de Técnicas de Programação), contém código fornecido pelo educador (código feito por mim está sinalizado)
