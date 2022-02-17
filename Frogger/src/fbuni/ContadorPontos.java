@@ -1,5 +1,3 @@
-//CÓDIGO AUTORAL ABAIXO:
-
 package fbuni;
 
 import java.awt.Color;
