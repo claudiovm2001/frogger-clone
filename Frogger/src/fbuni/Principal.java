@@ -10,7 +10,6 @@ import java.io.IOException;
 import javax.swing.JFrame;
 
 
-//ESTA CLASSE DEVE SE OBRIGATORIAMENTE MANTIDA NO PROJETO. QUALQUER ALTERA��O REALIZADA DEVE OBEDECER A HIERARQUIA
 public class Principal extends JFrame implements KeyListener {
 	
 	static Principal t = new Principal();
@@ -78,9 +77,8 @@ public class Principal extends JFrame implements KeyListener {
 		//contadorPontos.recorde = i;
 	}
 	
-	//EVITAR ALTERAR ESSE M�TODO
 	public static void main(String[] args) {
-		//Criando uma inst�ncia da classe principal
+		//Criando uma instância da classe principal
 		//t = new Principal();
 		
 		
@@ -93,7 +91,7 @@ public class Principal extends JFrame implements KeyListener {
 	
 	}
 
-	//EVITAR ALTERAR ESSE M�TODO
+	//UNNORGINAL METHOD
 	@Override
 	public void paint(Graphics ignore) {
 		BufferStrategy strategy = getBufferStrategy();
@@ -108,7 +106,6 @@ public class Principal extends JFrame implements KeyListener {
 		repaint();
 	}
 	
-	//ESSE � O M�TODO QUE DEVE SER ADAPTADO AO PROJETO
 	public void renderizarImagens(Graphics g2) {
 		//Desenhando as imagens
 		espaco.desenhar(g2);
@@ -235,7 +232,7 @@ public class Principal extends JFrame implements KeyListener {
 	}
 	*/
 	
-	//AUTORAL: na ocorrência de uma colisão (sapo e carros)...
+	//Na ocorrência de uma colisão (sapo e carros)...
 	public void colisao() {
 		System.out.println();
 		
