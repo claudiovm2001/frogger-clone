@@ -1,5 +1,3 @@
-//CÓDIGO AUTORAL ABAIXO:
-
 package fbuni;
 
 public class Nave extends DesenhoMovel implements Runnable {
