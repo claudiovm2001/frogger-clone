@@ -1,3 +1,5 @@
+//UNORIGINAL CODE BELOW
+
 package fbuni;
 
 import java.awt.Graphics;
@@ -8,7 +10,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-//ESTA CLASSE DEVE SE OBRIGATORIAMENTE MANTIDA NO PROJETO. QUALQUER ALTERA«√O REALIZADA DEVE OBEDECER A HIERARQUIA.
+//ESTA CLASSE DEVE SE OBRIGATORIAMENTE MANTIDA NO PROJETO. QUALQUER ALTERA√á√ÉO REALIZADA DEVE OBEDECER A HIERARQUIA.
 public class Desenho {
 	
 	private int x;
@@ -23,7 +25,7 @@ public class Desenho {
 	public Desenho(int x, int y, String path) {
 		this.setImg(path);
 
-		//O ret‚ngulo do desenho tem as mesmas dimensıes e coordenadas da imagem.
+		//O ret√¢ngulo do desenho tem as mesmas dimens√µes e coordenadas da imagem.
 		rectangle = new Rectangle();
 		rectangle.height = this.getImg().getHeight();
 		rectangle.width = this.getImg().getWidth();
@@ -65,8 +67,8 @@ public class Desenho {
 	}
 	
 	public Rectangle getRectangle() {
-		//O atributo rectangle È utilizado para identificar a interseÁ„o (toque)
-		//entre duas imagens atravÈs do mÈtodo intersects.
+		//O atributo rectangle √© utilizado para identificar a interse√ß√£o (toque)
+		//entre duas imagens atrav√©s do m√©todo intersects.
 		return rectangle;
 	}
 
