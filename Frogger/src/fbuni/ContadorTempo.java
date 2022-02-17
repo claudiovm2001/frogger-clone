@@ -1,5 +1,3 @@
-//CÓDIGO AUTORAL ABAIXO:
-
 package fbuni;
 
 //import javax.swing.JLabel;
